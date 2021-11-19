@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/12200042/E-Food-1.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/master
+[remote "upstream"]
+	url = https://github.com/yashjhaveri05/E-Food.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "heroku"]
+	url = https://git.heroku.com/smartcanteen1.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
